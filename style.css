@@ -45,6 +45,10 @@ body {
   padding: 1rem;
   border: 0.2rem solid black;
   flex: 1 1 1;
+  background-color: rgb(116, 116, 67);
+  color: white;
+  font-size: large;
+  font-weight: 900;
 }
 
 .btn:hover {
@@ -70,5 +74,9 @@ body {
   /* border-radius: 1rem; */
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.num-disp-lower {
   padding: 0.5rem;
 }
