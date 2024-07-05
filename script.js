@@ -115,20 +115,3 @@ function handleOperation(e) {
   console.log(displayValue);
   console.log(val);
 }
-
-addBtn.addEventListener("click", handleOperation);
-subtrBtn.addEventListener("click", handleOperation);
-divideBtn.addEventListener("click", handleOperation);
-multiplyBtn.addEventListener("click", handleOperation);
-remein.addEventListener("click", handleOperation);
-
-equals.addEventListener("click", () => {
-  const arr = upperDisp.split(" ");
-  const res = operate(Number(arr[0]), Number(displayValue), arr[1]);
-  console.log(res, arr[0], displayValue, arr[1]);
-  numDispUpper.textContent = res;
-
-  numDispLower.innerHTML = "";
-  displayValue = "";
-  upperDisp = "";
-});
